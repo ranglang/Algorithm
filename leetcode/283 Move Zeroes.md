@@ -33,3 +33,20 @@ public:
     }
 };
 ```
+
+对上面这样的代码还能进一步的优化，使得运算操作的次数还要更少
+
+```C++
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int non_zero_index = 0;
+        int len = nums.size();
+        for(int i=0;i<len;i++){
+            if(nums[i]!=0){
+                swap(nums[non_zero_index++], nums[i]);
+            }
+        }
+    }
+};
+```
