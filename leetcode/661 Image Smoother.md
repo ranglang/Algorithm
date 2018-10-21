@@ -24,7 +24,7 @@ For the point (1,1): floor(8/9) = floor(0.88888889) = 0
 水题，遍历整个矩阵即可
 
 # 代码
-空间复杂度O(1),时间复杂度O(n)
+空间复杂度O(n),时间复杂度O(n)
 ```C++
 class Solution {
 public:
