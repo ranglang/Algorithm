@@ -31,7 +31,7 @@ Output: 0
 水题，简单的二分查找
 
 # 代码
-空间复杂度O(1),时间复杂度O(n)
+空间复杂度O(1),时间复杂度O(logn)
 ```C++
 class Solution {
 public:
